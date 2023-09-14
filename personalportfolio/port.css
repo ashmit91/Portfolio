@@ -1,0 +1,162 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Source+Code+Pro:wght@300&display=swap');
+
+
+
+*{
+    margin: auto;
+    padding:0;
+
+}
+.navbar {
+  background-color:white; 
+ display: flex;
+ justify-content: center;
+ color: white;
+ 
+}
+i
+{
+  transform: scale(4.0);
+  padding: 25px;
+}
+
+
+.nav-list {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+.nav-list img{
+  padding-top:10px ;
+}
+
+.nav-list li {
+  float: left; 
+}
+
+
+.nav-list li a {
+  display: block;
+  color: black; 
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+  
+}
+
+
+.nav-list li a:hover {
+  background-color: #555; 
+}
+.sidebar
+{
+  background-color: dimgray;
+    height:120vh;
+    transition: transform 0.3s ease-in ;
+
+   
+}
+.sidebar nav
+{
+  padding:45px;
+}
+.sidebar li
+{
+ list-style-type: none;
+ font-size: 30px;
+ padding: 33px; 
+}
+.sidebar li a{
+  text-decoration: none;
+  color: black;
+}
+.sidebarGo
+{
+  transform: translate(-443px,0px);
+  position: absolute;
+}
+ .main
+ {
+   
+    width:90vw;
+ }
+ .icon{
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+left: 10px;
+  
+  
+   
+ }
+ .cross
+ {
+ margin-left: 225px;
+ }
+ .container
+ {
+    display: flex;
+  
+ }
+ .infocontainer
+ {
+  
+  height:78vh;
+  width:80vw;
+  margin :144px auto;
+  display:flex;
+
+ }
+ .devInfo
+ {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+ }
+ .hello{
+  font-size: 80px;
+  font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
+ }
+ .name{
+  font-size: 72px;
+  font-weight: bold;;
+  font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
+ }
+ .about{
+  font-size: 40px;
+ }
+ .moreabout
+ {
+  font-size: 24px;
+  margin-top: 22px;
+  font-family: 'Roboto', sans-serif;
+ }
+ .button button
+
+ {
+  font-size: 25px;
+  margin-top: 34px;
+  padding: 9px 14px;
+  border-radius: 22px;
+  background-color: dodgerblue;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  
+ }
+ .button button:hover
+ {
+  background-color:WHITE ;
+  color: blue;
+ }
+
+ .devPic img
+ {
+  height:78vh;
+  float:left
+ }
+ 
